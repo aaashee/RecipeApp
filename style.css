@@ -14,7 +14,7 @@ body {
 
 /* Header and Navigation */
 header nav {
-    background-color: #d8b6a4;
+    background-color: #b48e7c;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -218,6 +218,60 @@ body::-webkit-scrollbar-thumb {
         width: 80%;
         margin-top: 20px;
     }
+
+    /* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode header nav {
+    background-color: #1c1c1c;
+    border-bottom: 1px solid #333;
+
+}
+
+body.dark-mode header nav h1 {
+    color: #ffffff;
+}
+
+body.dark-mode .recipe {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+body.dark-mode .recipe-details {
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+body.dark-mode .recipe button,
+body.dark-mode .searchBtn {
+    background-color: #bb86fc;
+}
+
+body.dark-mode .recipe button:hover,
+body.dark-mode .searchBtn:hover {
+    background-color: #9b6be5;
+}
+
+.dark-mode-toggle {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.2s ease-in-out;
+    color: #3e3c61;
+}
+
+body.dark-mode .dark-mode-toggle {
+    color: #ffcc00;
+}
+.dark-mode-toggle:hover {
+    transform: scale(1.2);
+}
+
 
     .recipe-details {
         width: 90%;
