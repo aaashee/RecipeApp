@@ -277,3 +277,90 @@ body.dark-mode .dark-mode-toggle {
 .dark-mode-toggle:hover {
     transform: scale(1.2);
 }
+
+/* recently viewed containers Styles */
+.recently-viewed-container {
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .recently-viewed {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .recently-viewed .recipe {
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+  }
+   /* dark mode for recently added */
+   body.dark .recently-viewed-container {
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+  
+  body.dark .recently-viewed .recipe {
+    background-color: #2a2a2a;
+    color: #fff;
+    border: 1px solid #444;
+  }
+  
+  body.dark .recently-viewed .recipe:hover {
+    background-color: #3a3a3a;
+  }
+
+  /* go back to home page */
+  .home-btn {
+    background-color: #ff8e7d;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-btn:hover {
+    background-color: #e76f51;
+  }
+  
+  body.dark .home-btn {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  body.dark .home-btn:hover {
+    background-color: #666;
+  }
+
+  /* favourite section stylish*/
+  .favourites-section {
+    margin: 40px auto;
+    width: 80%;
+    text-align: center;
+    color: #1e1e2f;
+  }
+  
+  .favourites-section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #a84f4f;
+  }
+  
+  .favourites-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    place-items: center;
+  }
+  
+  body.dark .favourites-section h2 {
+    color: #ffbdbd;
+  }
+  
