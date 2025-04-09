@@ -86,4 +86,17 @@ searchBtn.addEventListener('click',(e)=>{
     }
     fetchRecipes(searchInput);
     //console.log("button clicked")
+}); 
+/ Dark Mode Toggle
+const toggleBtn = document.querySelector('.dark-mode-toggle');
+
+toggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+
+    // Change icon 🌙/☀️
+    if (document.body.classList.contains('dark-mode')) {
+        toggleBtn.textContent = "☀️";
+    } else {
+        toggleBtn.textContent = "🌙";
+    }
 });
