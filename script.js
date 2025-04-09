@@ -87,7 +87,7 @@ searchBtn.addEventListener('click',(e)=>{
     fetchRecipes(searchInput);
     //console.log("button clicked")
 }); 
-/ Dark Mode Toggle
+// Dark Mode Toggle
 const toggleBtn = document.querySelector('.dark-mode-toggle');
 
 toggleBtn.addEventListener('click', () => {
