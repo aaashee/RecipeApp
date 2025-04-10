@@ -8,7 +8,7 @@ Here are few glimpses:
 
 
 ### *Built using HTML, CSS, JavaScript*
-[Have a look!](https://aaashee.github.io/RecipeApp/)
+[Have a look!](https://aaashee.github.io/recipeeapp/)
 
 
 
