@@ -1,5 +1,15 @@
 # RecipeApp
 RecipeApp is a responsive web application designed for food enthusiasts who love to explore and save recipes. Built using HTML, CSS, and JavaScript, it leverages the mealDb API to fetch and display a variety of recipes. The website offers functionalities like recipe search, dark/light mode, detailed recipe views.
+Here are few glimpses:
+
+
+<img src="Screenshot 2025-04-10 112357.png" width="600" height="400">
+<img src="Screenshot 2025-04-10 112055.png" width="600" height="400">
+
+
+### *Built using HTML, CSS, JavaScript*
+[Have a look!](https://aaashee.github.io/RecipeApp/)
+
 
 
 
